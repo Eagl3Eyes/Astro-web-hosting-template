@@ -115,8 +115,8 @@
     margin: 40px;
 }
 
-.awesome-plan-body-info h3,
-p {
+.awesome-plan-body-info-h3,
+.awesome-plan-body-info-p {
     margin-top: 15px;
 }
 
@@ -164,6 +164,15 @@ p {
     margin-top: 30px;
 }
 
+.domain-search-option {
+    border: none;
+    background: #f8fafb;
+    border: 2px solid #f1f3f5;
+    padding: 9px;
+    border-radius: 6px;
+    
+}
+
 .search-box {
     background: #f8fafb;
     border: none;
@@ -181,22 +190,109 @@ p {
 }
 
 
+
+
 /* Domain Price */
-.domain-price-img{
+
+.price-card {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+}
+
+.price-img {
     background: url(./images/price/card.png);
     background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 222px;
+    height: 313px;
 }
 
-.domain-price {
+.price-circle {
+    position: relative;
+    top: -60px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
 }
 
-.domain-price-info {
+.price-circle-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    background-color: #53c2ef;
+    padding: 12px;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+.price-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.price-info {
     display: flex;
     flex-direction: row;
+    gap: 8px;
+}
+
+.price-info-gap {
+    margin-top: 6px;
+}
+
+.price-btn {
+    background: #53c2ef;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    margin-top: 40px;
+    position: relative;
+    top: -30px;
+}
+
+
+
+
+
+/* contact us */
+.contact {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.contact-btn {
+    background: #53c2ef;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+
+
+/* footer */
+footer {
+    background: url(./images/Footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 378px;
 }
