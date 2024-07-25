@@ -1,0 +1,493 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+    height: 100%;
+    border: 2px solid red;
+}
+
+
+.shadow {
+    border-top: 5px solid #637988;
+    width: 60%;
+    opacity: 10%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.shadow-underline {
+    border-top: 5px solid #637988;
+    width: 60%;
+    opacity: 10%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+/* navbar */
+.nav-bg-1 {
+    background: #c4a2e2;
+}
+
+.nav-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0 8px 0;
+}
+
+.nav-1-body {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+
+.nav-language {
+    color: white;
+    border: none;
+    background: transparent;
+}
+
+.nav-language-1 {
+    color: black;
+}
+
+.nav-bg-2 {
+    background: #f4f7fa;
+}
+
+.nav-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-2-body {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    /* padding: 25px 0px 25px 0; */
+}
+
+.nav-2-btn {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 130px;
+    height: 40px;
+}
+
+.nav-btn {
+    background: #eff3f7;
+    color: black;
+    text-decoration: none;
+    padding: 25px;
+    border-top: 4px solid #31a7de;
+}
+
+.nav-btn-1 {
+    color: black;
+    text-decoration: none;
+    padding: 25px;
+}
+
+.nav-btn-1:hover {
+    background: #eff3f7;
+    color: black;
+    text-decoration: none;
+    padding: 25px;
+    border-top: 4px solid #31a7de;
+}
+
+.nav-search {
+    padding: 10px 0 10px 0;
+    border: 1px solid #ced9df;
+    border-radius: 4px;
+}
+
+
+
+
+/* hero */
+.hero {
+    background: url(../images/Landing.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 237px;
+}
+
+.hero-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-body-title {
+    /* font-family: "Roboto", sans-serif; */
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    color: #2c4755;
+    margin-top: 30px;
+}
+
+.hero-body-p {
+    /* font-family: "Roboto", sans-serif; */
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #2c4755;
+}
+
+
+
+/* office info */
+.office-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.office-h3 {
+    /* font-family: "Roboto", sans-serif; */
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    color: #2c4755;
+    margin-bottom: 12px;
+}
+
+.office-p {
+    color: #acb8c0;
+    text-align: center;
+    width: 700px;
+}
+
+.office-info {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+}
+
+.office-info-img {
+    width: 24px;
+    height: 22px;
+    background: #00c7fc;
+    padding: 16px;
+    border-radius: 50%;
+}
+
+.office-info-section {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.office-info-h3 {
+    color: #2c4755;
+    margin-top: 14px;
+}
+
+.office-info-p {
+    color: #637988;
+    margin-top: 6px;
+}
+
+
+
+/* You can find us here */
+.find-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-us-h3 {
+    /* font-family: "Roboto", sans-serif; */
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    color: #2c4755;
+    margin-top: 50px;
+}
+
+.find-us-p {
+    text-align: center;
+    width: 700px;
+}
+
+.find-us-map {
+    background: #2c4755;
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+}
+
+
+
+
+/* Send Mail to Us */
+.send-mail-h3 {
+    /* font-family: "Roboto", sans-serif; */
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    color: #2c4755;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.send-mail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.send-mail-form {
+    display: flex;
+    gap: 30px;
+}
+
+.send-mail-form-h3 {
+    /* font-family: "Roboto", sans-serif; */
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #597984;
+}
+
+.send-mail-form-star {
+    color: #33d2fd;
+}
+
+.send-mail-form-text {
+    width: 400px;
+    height: 40px;
+    background: #edf2f6;
+    border: none;
+    border-radius: 5px;
+}
+
+.send-mail-form-msg {
+    width: 834px;
+    height: 160px;
+    background: #edf2f6;
+    border: none;
+    border-radius: 5px;
+}
+
+.send-mail-gap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.send-mail-form-btn {
+    background: #53c2ef;
+    color: white;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+/* ==================================================================== */
+/* Media Query */
+/* ==================================================================== */
+
+/* Mobile Devices */
+@media only screen and (max-width: 667px) {
+    .container {
+        width: 375px;
+        margin: 0;
+    }
+
+
+    /* navbar */
+    .nav-1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+    }
+
+    .nav-1-body {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        gap: 4px;
+    }
+
+    .nav-1-body-sm {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .nav-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-2-body {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .logo {
+        width: 130px;
+        height: 40px;
+    }
+
+    .nav-btn {
+        padding: 6px;
+        border-top: 2px solid #31a7de;
+    }
+
+    .nav-btn-1 {
+        color: black;
+        text-decoration: none;
+        padding: 6px;
+    }
+}
+
+
+
+@media only screen and (min-width: 360px) and (max-width: 740px) {
+    .container {
+        width: 360px;
+        margin: 0;
+    }
+
+    /* hero */
+    .hero-body {
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 414px) and (max-width: 896px) {
+    .container {
+        width: 414px;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 915px) {
+    .container {
+        width: 412px;
+        margin: 0;
+    }
+}
+
+/* Mobile Big Size */
+@media only screen and (min-width: 430px) and (max-width: 932px) {
+    .container {
+        width: 430px;
+        margin: 0;
+    }
+}
+
+
+
+/* Tablet Devices */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        width: 768px;
+        margin: 0;
+        /* border: 2px solid red; */
+    }
+
+    /* navbar */
+
+    .nav-1-body {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .nav-1-body-sm {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+    .nav-2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav-2-body {
+        display: flex;
+        flex-direction: row;
+        gap: 2px;
+    }
+
+    .nav-btn {
+        background: #eff3f7;
+        color: black;
+        text-decoration: none;
+        padding: 12px;
+        border-top: 4px solid #31a7de;
+    }
+
+    .nav-btn-1 {
+        color: black;
+        text-decoration: none;
+        padding: 12px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        /* border: 2px solid red; */
+    }
+
+
+    /* nav */
+
+    .nav-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 2px 10px 2px 10px;
+    }
+
+    .nav-2-body {
+        display: flex;
+        flex-direction: row;
+        gap: 2px;
+    }
+}

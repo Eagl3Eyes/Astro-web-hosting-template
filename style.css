@@ -1,5 +1,5 @@
 /* font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
 
 
 * {
@@ -172,6 +172,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .awesome-plan h2 {
@@ -529,20 +530,6 @@ footer {
         text-align: center;
     }
 
-    .awesome-plan h2 {
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-    }
-
-    .awesome-plan p {
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        text-align: center;
-        color: #637988;
-    }
-
     .awesome-plan-body {
         display: flex;
         flex-direction: column;
@@ -642,7 +629,7 @@ footer {
     }
 
     .footer-blog-description {
-        width: 120px;
+        width: 100px;
     }
 
     .footer-gap {
@@ -654,6 +641,8 @@ footer {
     }
 
 }
+
+
 
 @media only screen and (min-width: 360px) and (max-width: 740px) {
     .container {
