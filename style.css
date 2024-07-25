@@ -10,7 +10,6 @@
 .container {
     width: 1320px;
     margin: 0 auto;
-    height: 100%;
     /* border: 2px solid red; */
 }
 
@@ -134,7 +133,7 @@
     font-style: normal;
     font-size: 22px;
     color: white;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .header-body p {
@@ -778,6 +777,18 @@ footer {
 
     .contact {
         margin-top: 50px;
+    }
+
+
+
+    /* footer */
+    .footer-body {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .footer-blog-description {
+        width: 180px;
     }
 }
 

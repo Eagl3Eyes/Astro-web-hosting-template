@@ -131,8 +131,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    /* min-height: 453px; */
-    height: 237px;
+    height: 337px;
+    background-position: center center;
 }
 
 .hero-body {
@@ -299,7 +299,7 @@
 
 /* footer */
 footer {
-    background: url(./images/Footer.png);
+    background: url(../images/Footer.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -588,6 +588,17 @@ footer {
         color: black;
         text-decoration: none;
         padding: 12px;
+    }
+
+
+    /* footer */
+    .footer-body {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .footer-blog-description {
+        width: 180px;
     }
 }
 

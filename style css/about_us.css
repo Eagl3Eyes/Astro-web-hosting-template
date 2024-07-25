@@ -131,7 +131,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 237px;
+    height: 337px;
+    background-position: center center;
 }
 
 .hero-body {
@@ -198,6 +199,16 @@
     justify-content: center;
     gap: 100px;
     margin-top: 50px;
+}
+
+.advertise-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.check-icon {
+    color: #3bd825;
 }
 
 
@@ -320,6 +331,7 @@
     color: #6d8290;
     width: 700px;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 
@@ -329,7 +341,7 @@
 
 /* footer */
 footer {
-    background: url(./images/Footer.png);
+    background: url(../images/Footer.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -692,6 +704,18 @@ footer {
 
     .team-card-end-title {
         width: 600px;
+    }
+
+
+
+    /* footer */
+    .footer-body {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .footer-blog-description {
+        width: 180px;
     }
 }
 
